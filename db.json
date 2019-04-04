@@ -1,0 +1,72 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Mark FaceBook",
+      "gender": "Male",
+      "contactPreference": "Email",
+      "email": "mark@yahoo.com",
+      "dateOfBirth": "1980/04/19",
+      "department": "1",
+      "isActive": true,
+      "photoPath": "assets/images/Mark.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Bill Gates",
+      "gender": "Male",
+      "contactPreference": "Phone",
+      "phoneNumber": 9768465606,
+      "dateOfBirth": "1970/01/25",
+      "department": "2",
+      "isActive": true,
+      "photoPath": "assets/images/Bill-Gates.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Apple Owner",
+      "gender": "Female",
+      "contactPreference": "Email",
+      "phoneNumber": 9768465606,
+      "dateOfBirth": "2019-04-05",
+      "department": "1",
+      "isActive": true,
+      "photoPath": "assets/images/Mark.jpg",
+      "email": "apple@yahoo.com"
+    },
+    {
+      "id": 4,
+      "name": "Kalpana Chawla",
+      "gender": "Female",
+      "contactPreference": "Email",
+      "email": "kalpana.c@yahoo.com",
+      "dateOfBirth": "1970/12/30",
+      "department": "3",
+      "isActive": true,
+      "photoPath": "assets/images/Kalpana.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Dr. APJ Abdul Kalam",
+      "gender": "Male",
+      "contactPreference": "Email",
+      "email": "apj.kalam@yahoo.com",
+      "dateOfBirth": "1947/01/01",
+      "department": "2",
+      "isActive": false,
+      "photoPath": "assets/images/APJKalam.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Priya",
+      "gender": "Female",
+      "contactPreference": "Phone",
+      "phoneNumber": "124563",
+      "email": "priya@yahoo.com",
+      "dateOfBirth": "2019-04-03",
+      "department": "3",
+      "isActive": true,
+      "photoPath": "assets/images/Kalpana.jpg"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<div class="form-group">
+  <input type="text" class="form-control" placeholder="Search By name" [(ngModel)]="searchTerm" />
+</div>
+
+<!-- this code was for Change the employee name on Home Page -->
+<!-- <div class="form-group">
+  <button (click)="changeEmployeeName()" class="btn btn-primary">
+    Change Employee Name
+  </button>
+</div> -->
+
+
+<div *ngFor="let employee of filteredEmployees">
+  <app-display-employee [employee]="employee" [searchTerm]="searchTerm"
+  (notifyDelete)="onDeleteNotification($event)">
+  </app-display-employee>
+</div>
+<div *ngIf="error">
+{{ error }}
+</div>
+
+<!-- <div *ngFor="let employee of filteredEmployees">
+  <div (click)="onClick(employee.id)" class="pointCursor">
+    <app-display-employee [employee]="employee" #childComponent>
+    </app-display-employee>
+  </div>
+</div> -->
+
+<!-- this below code is using for Setter & getter method of property and ngOnchanges lifecycle hook method for property binding  -->
+<!--  <button (click)="nextEmployee()" class="btn btn-primary">
+    View Next Employee
+  </button>
+  <br>
+  <br>
+  <app-display-employee [employee]="employeeToDisplay" [employeeId]="employeeToDisplay.id">
+  </app-display-employee> -->
